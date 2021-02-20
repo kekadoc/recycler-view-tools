@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.AsyncDifferConfig
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.kekadoc.tools.android.lifecycle.addObserving
 import com.kekadoc.tools.android.view.ViewUtils.findAllViews
-import com.kekadoc.tools.android.view.recyclerview.addObserving
 import com.kekadoc.tools.android.view.recyclerview.viewholder.ItemViewHolder
 import com.kekadoc.tools.observer.Observing
 import java.util.*

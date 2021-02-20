@@ -21,12 +21,12 @@ import androidx.transition.ChangeBounds
 import androidx.transition.Transition
 import androidx.transition.TransitionManager
 import com.google.android.material.card.MaterialCardView
-import com.kekadoc.tools.android.AndroidUtils.ThemeColor
 import com.kekadoc.tools.android.AndroidUtils.dpToPx
 import com.kekadoc.tools.android.AndroidUtils.getDimension
 import com.kekadoc.tools.android.AndroidUtils.getDrawable
+import com.kekadoc.tools.android.ThemeColor
 import com.kekadoc.tools.android.view.Expandable
-import com.kekadoc.tools.android.view.ViewUtils.dpToPx
+import com.kekadoc.tools.android.view.dpToPx
 import com.kekadoc.tools.android.view.recyclerview.R
 import com.kekadoc.tools.android.view.recyclerview.viewholder.ItemViewHolder
 import java.util.*

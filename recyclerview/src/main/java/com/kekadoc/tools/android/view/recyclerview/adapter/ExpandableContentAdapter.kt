@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.ChangeBounds
 import androidx.transition.Transition
 import androidx.transition.TransitionManager
-import com.kekadoc.tools.android.AndroidUtils.ThemeColor
 import com.kekadoc.tools.android.AndroidUtils.dpToPx
 import com.kekadoc.tools.android.AndroidUtils.getThemeColor
+import com.kekadoc.tools.android.ThemeColor
 import com.kekadoc.tools.android.view.Expandable
 import com.kekadoc.tools.android.view.recyclerview.R
 import java.util.*

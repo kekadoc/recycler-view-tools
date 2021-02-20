@@ -19,6 +19,7 @@ import com.google.android.material.card.MaterialCardView
 import com.google.android.material.shape.CornerFamily
 import com.google.android.material.snackbar.Snackbar
 import com.kekadoc.tools.android.AndroidUtils
+import com.kekadoc.tools.android.ThemeColor
 import com.kekadoc.tools.android.animation.alpha
 import com.kekadoc.tools.android.animation.animator
 import com.kekadoc.tools.android.animation.scale
@@ -27,8 +28,6 @@ import com.kekadoc.tools.android.graph.ColorUtils
 import com.kekadoc.tools.android.shaper.roundAllCorners
 import com.kekadoc.tools.android.shaper.shapedDrawable
 import com.kekadoc.tools.android.themeColor
-import com.kekadoc.tools.android.view.ViewUtils.dpToPx
-import com.kekadoc.tools.android.view.ViewWrapper
 import com.kekadoc.tools.android.view.recyclerview.SpacesItemDecoration
 import com.kekadoc.tools.android.view.recyclerview.adapter.*
 import com.kekadoc.tools.android.view.recyclerview.notifyData
@@ -239,9 +238,9 @@ class ExpandableContentViewHolderImpl(context: Context) : ExpandableContentAdapt
                     setBottomLeftCorner(CornerFamily.CUT, dpToPx(16f))
                     setBottomRightCorner(CornerFamily.CUT, dpToPx(16f))
                 }
-                setTint(themeColor(AndroidUtils.ThemeColor.PRIMARY))
+                setTint(themeColor(ThemeColor.PRIMARY))
                 setElevation(dpToPx(4f))
-                setRippleColor(themeColor(AndroidUtils.ThemeColor.RIPPLE))
+                setRippleColor(themeColor(ThemeColor.RIPPLE))
             }
             //radius = context.dpToPx(16f)
             //strokeWidth = context.dpToPx(4f).toInt()
